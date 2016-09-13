@@ -21,6 +21,14 @@ I laser cut the top and bottom panels from 3-mm acrylic. The main case file is
 thumb layer, spacers  for arcade buttons, spacers for
 screws, and two rectangular parts for the tablet attachment. 
 
+I really like the recessed thumb keys. I used 3-mm thick spacers
+between the top plate and the recessed plate, leaving the recessed
+keys 6 mm lower than the top keys. That makes the main thumb keys more
+comfortable, and it also makes it possible to use thumbs for more
+keys. The bottom keys of the middle diamond are easy to hit with thumbs.
+
+![keys](pics/keys.png)
+
 
 
 ## Switches / keycaps
@@ -61,8 +69,23 @@ going to do it over again, I'd either snip down the switch stabs to
 fit in the existing holes, or use a smaller drill bit to try to slot
 the hole more.
 
+I used three columns in each veroboard. These are:
 
+- Column 1 - second from the left - switch-to-diode connection - this
+  is broken between each row.
+- Column 2 - second from the right - column bus - connects each switch
+  on a column.
+- Column 3 - last on the right - row bus - connects all rows
+  together - this is broken between each row.
 
+Diode legs are used to connect the row buses together. Some just
+barely fit, and in one case, I had to wire this separately. 
+
+I used 32-gage magnet wire to solder all of the common points on the
+direct-wired key switches. This worked great because you don't have to strip
+the wire; just wrap it around the posts a couple of times and solder.
+For the direct wire keys, I used some wire I've had for a long time. I
+think it's wire wrap wire. This worked best for soldering to the Teensy. 
 
 ## Arcade buttons
 
