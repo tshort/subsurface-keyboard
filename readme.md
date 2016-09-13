@@ -16,10 +16,10 @@ The key features include:
 
 ## Case
 
-I laser cut the top and bottom panels from 3-mm acrylic. The main case file is
-[here](case.svg).  This includes top and bottom plates, a plate for the recessed
-thumb layer, spacers  for arcade buttons, spacers for
-screws, and two rectangular parts for the tablet attachment. 
+I laser cut the top and bottom panels from 3-mm acrylic. The main case
+file is [here](case.svg). This includes top and bottom plates, a plate
+for the recessed thumb layer, spacers for arcade buttons, spacers for
+screws, and two rectangular parts for the tablet attachment.
 
 I really like the recessed thumb keys. I used 3-mm thick spacers
 between the top plate and the recessed plate, leaving the recessed
@@ -29,7 +29,9 @@ keys. The bottom keys of the middle diamond are easy to hit with thumbs.
 
 ![keys](pics/keys.png)
 
-
+The top and bottom plates are held together with 10-mm spacers. I
+could have probably used 9-mm spacers, but this gave lots of room for
+components.
 
 ## Switches / keycaps
 
@@ -86,6 +88,10 @@ direct-wired key switches. This worked great because you don't have to strip
 the wire; just wrap it around the posts a couple of times and solder.
 For the direct wire keys, I used some wire I've had for a long time. I
 think it's wire wrap wire. This worked best for soldering to the Teensy. 
+
+Also note that the two keys on the far left and the two keys on the
+far right are wired together. There's space to wire them to the
+Teensy++, but I don't have a need for them now. 
 
 ## Arcade buttons
 
@@ -157,7 +163,11 @@ scrollwheel components were. Here views of the cut up PCB.
 
 ![trackball3](pics/trackball3.png)
 
-I'm not sure this was all worth it:)
+I'm not sure that was all worth it:) After I cut up the PCB, I
+realized it would have been easier to remove the IR emitter and
+receiver from the board and mount those separately on a small piece of
+veroboard. That would have made the soldering much easier because I
+could solder jumper wires to the holes where the components were. 
 
 I'm not sure how well the trackball will hold up when carried in a
 backpack. It could snag in things.
