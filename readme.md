@@ -2,7 +2,7 @@
 
 The Subsurface keyboard is a custom, hand-wired keyboard designed to mate with a
 Surface Pro 3/4 tablet. See [here](https://github.com/tshort/qmk_firmware/tree/master/keyboards/subsurface/keymaps/default)
-for the layout using the [QMK firmware](https://github.com/tshort/qmk_firmware/tree/master/keyboards/subsurface).
+for the default key layout using the [QMK firmware](https://github.com/tshort/qmk_firmware/tree/master/keyboards/subsurface).
 
 ![main](pics/subsurface2.png)
 
@@ -147,6 +147,11 @@ This attachment works well enough to hold things steady on my lap. But
 for moving things around, I always grab the keyboard and tablet
 separately.
 
+The following picture shows where I plan to store the pen for the
+tablet. I still need to order the pen loops to make this happen. The
+pen will be recessed about half way.
+
+![pen](pics/pen.png)
 
 ## Trackball
 
@@ -163,11 +168,12 @@ scrollwheel components were. Here views of the cut up PCB.
 
 ![trackball3](pics/trackball3.png)
 
-I'm not sure that was all worth it:) After I cut up the PCB, I
-realized it would have been easier to remove the IR emitter and
-receiver from the board and mount those separately on a small piece of
-veroboard. That would have made the soldering much easier because I
-could solder jumper wires to the holes where the components were. 
+I'm not sure that this work was all worth it for the trackball:) After
+I cut up the PCB, I realized it would have been easier to remove the
+IR emitter and receiver from the PCB and mount those separately on a
+small piece of veroboard. That would have made the soldering much
+easier because I could solder jumper wires to the holes where the
+components were.
 
 I'm not sure how well the trackball will hold up when carried in a
 backpack. It could snag in things.
