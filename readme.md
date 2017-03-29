@@ -1,5 +1,19 @@
 # Subsurface keyboard
 
+---
+
+Overall, this has mainly been a failed experiment. Several issues added up:
+
+* The acrylic sides were fairly sharp, and this pressed into my palms when resting in the natural position. This was mainly because I did a poor job with the laser cutter on this piece. 
+* The thumb positioning wasn't quite right. My natural position was between the middle two keys.
+* I don't like DSA keycaps, and I just couldn't get used to them. I like ther Matias switches, but Alps keycaps are hard to come by.
+* The hard drive in the unit was flakey. The Surface Pro 3 probably doesn't have enough power to reliably keep it going.  
+* The connection to the Surface Pro works well once you get it set up, but it's klunky to set up and move around.
+
+None of these by themselves are show stoppers, but in the end, I mostly stopped using this keyboard.
+
+---
+
 The Subsurface keyboard is a custom, hand-wired keyboard designed to mate with a
 Surface Pro 3/4 tablet. See [here](https://github.com/tshort/qmk_firmware/tree/master/keyboards/subsurface/keymaps/default)
 for the default key layout using the [QMK firmware](https://github.com/tshort/qmk_firmware/tree/master/keyboards/subsurface).
